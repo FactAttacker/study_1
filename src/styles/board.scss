@@ -1,0 +1,39 @@
+$x:none;
+
+body{
+    margin-left:5%;
+}
+li{
+    list-style: $x;
+}    
+.Collapsible__trigger{
+    font-weight: bold;
+    display: block;
+    border-bottom:1px solid  rgb(90, 126, 160);
+    padding-left: 3%;
+}
+
+.big_checkbox{
+  -ms-transform: scale(1.8);
+  -moz-transform: scale(1.8); 
+  -webkit-transform: scale(1.8);
+  -o-transform: scale(1.8); 
+  margin:0 1%;
+}
+.magin_center{
+    width: 30%;
+    margin:50px auto 0;
+}
+.button_center{
+     margin-left:5%;
+}
+
+.board_name{
+    display: inline-block;
+    width: 80vw;
+    background-color:#fff;
+    cursor: pointer;
+    &:hover{
+        background-color:rgba(124, 176, 245, 0.5);
+    }
+}
